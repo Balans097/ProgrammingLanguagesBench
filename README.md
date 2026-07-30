@@ -13,7 +13,7 @@ Given a binary string, rearrange its bits to form the **maximum possible number*
 ## Results
 
 <p align="center">
-  <img src="./results/Results.png" alt="Results on Fedora Linux" width="600">
+  <img src="./results/Results.png" alt="Results on Fedora Linux" width="800">
 </p>
 
 

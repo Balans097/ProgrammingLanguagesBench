@@ -23,7 +23,6 @@ for f in data/len_*.txt; do
   run ./bin/bench_c "$f"
   run ./bin/bench_cpp "$f"
   run ./bin/bench_nim "$f"
-  run ./bin/bench_nim_danger "$f"
   run ./bin/bench_d "$f"
   run ./bin/bench_rust "$f"
   run python3 src/bench_python.py "$f"

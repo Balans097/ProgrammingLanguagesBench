@@ -62,6 +62,5 @@ when isMainModule:
   let elapsedNs = float(inNanoseconds(t1 - t0))
   let perOp = elapsedNs / float(iters)
   let totalMs = elapsedNs / 1e6
-  let label = when defined(danger): "NimDanger" else: "Nim"
-  echo label, ",", n, ",", iters, ",", formatFloat(perOp, ffDecimal, 2), ",",
+  echo "Nim", ",", n, ",", iters, ",", formatFloat(perOp, ffDecimal, 2), ",",
       formatFloat(totalMs, ffDecimal, 3)

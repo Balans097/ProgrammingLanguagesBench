@@ -12,7 +12,6 @@ g++ -O3 -march=native -std=c++17 -o bin/bench_cpp src/bench_cpp.cpp && echo "OK:
 
 echo "== Nim =="
 nim c -d:release --opt:speed -o:bin/bench_nim src/bench_nim.nim && echo "OK: bin/bench_nim"
-nim c -d:danger --opt:speed -o:bin/bench_nim_danger src/bench_nim.nim && echo "OK: bin/bench_nim_danger"
 
 echo "== D =="
 # На Fedora обычно есть ldc2 (dnf install ldc) или dmd; gdc отдельно не пакетируется.
